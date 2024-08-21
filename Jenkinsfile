@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://shivamcanqualify@bitbucket.org/canqualify/multi-branch.git'
+                git branch: 'main', url: 'https://github.com/shivam2823/multibranch.git'
             }
         }
 
